@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "streamlit-example"
+version = "0.1.0"
+description = ""
+authors = ["jnmarti <88381891+jnmarti@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "streamlit_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+altair = "^4.2.0"
+pandas = "^1.5.1"
+streamlit = "^1.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
